@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="ws" type="double" />
+      <attribute id="1" title="ntype" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>02/08/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="red" label="red">
+        <viz:color a="0" b="0" g="0" r="255" />
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="main" />
+        </attvalues>
+      </node>
+      <node id="green" label="green">
+        <viz:color a="0" b="0" g="255" r="0" />
+        <attvalues>
+          <attvalue for="0" value="1.5" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="blue" label="blue">
+        <viz:color a="0" b="0" g="255" r="0" />
+        <attvalues>
+          <attvalue for="0" value="1.2" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges />
+  </graph>
+</gexf>
