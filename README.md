@@ -5,4 +5,9 @@
  
 ## Project
 * made network of industry by industry_network.py 
+* made network of city(or provice)
+    * 京津冀（Beijing, Tianjing, Heibei）
+    * 长三角 (shanghai，jiangsu，zhejiang)
+ 
+
 
