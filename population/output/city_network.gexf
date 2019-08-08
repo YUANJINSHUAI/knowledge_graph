@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="label" type="string" />
+      <attribute id="3" title="type_" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="ws" type="float" />
+      <attribute id="1" title="ntype" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>07/08/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="北京" label="北京">
+        <attvalues>
+          <attvalue for="0" value="28014.94" />
+          <attvalue for="1" value="main" />
+        </attvalues>
+      </node>
+      <node id="天津" label="天津">
+        <attvalues>
+          <attvalue for="0" value="18549.19" />
+          <attvalue for="1" value="main" />
+        </attvalues>
+      </node>
+      <node id="河北" label="河北">
+        <attvalues>
+          <attvalue for="0" value="34016.32" />
+          <attvalue for="1" value="main" />
+        </attvalues>
+      </node>
+      <node id="北京_务工/工作" label="务工/工作">
+        <attvalues>
+          <attvalue for="0" value="13106.125" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="北京_家属随迁" label="家属随迁">
+        <attvalues>
+          <attvalue for="0" value="4915.364" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="北京_出生" label="出生">
+        <attvalues>
+          <attvalue for="0" value="2592.931" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="北京_经商" label="经商">
+        <attvalues>
+          <attvalue for="0" value="2309.482" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="北京_婚姻嫁娶" label="婚姻嫁娶">
+        <attvalues>
+          <attvalue for="0" value="380.241" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="天津_务工/工作" label="务工/工作">
+        <attvalues>
+          <attvalue for="0" value="2383.181" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="天津_家属随迁" label="家属随迁">
+        <attvalues>
+          <attvalue for="0" value="1398.059" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="天津_经商" label="经商">
+        <attvalues>
+          <attvalue for="0" value="768.378" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="天津_出生" label="出生">
+        <attvalues>
+          <attvalue for="0" value="552.958" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="天津_婚姻嫁娶" label="婚姻嫁娶">
+        <attvalues>
+          <attvalue for="0" value="83.543" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="河北_务工/工作" label="务工/工作">
+        <attvalues>
+          <attvalue for="0" value="1346.276" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="河北_家属随迁" label="家属随迁">
+        <attvalues>
+          <attvalue for="0" value="870.3166" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="河北_经商" label="经商">
+        <attvalues>
+          <attvalue for="0" value="592.819" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="河北_出生" label="出生">
+        <attvalues>
+          <attvalue for="0" value="168.986" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+      <node id="河北_婚姻嫁娶" label="婚姻嫁娶">
+        <attvalues>
+          <attvalue for="0" value="44.286" />
+          <attvalue for="1" value="sub" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="北京" target="天津" weight="9329">
+        <attvalues>
+          <attvalue for="2" value="从北京流入天津" />
+          <attvalue for="3" value="flow" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="北京" target="河北" weight="9103">
+        <attvalues>
+          <attvalue for="2" value="从北京流入河北" />
+          <attvalue for="3" value="flow" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="天津" target="北京" weight="73143">
+        <attvalues>
+          <attvalue for="2" value="从天津流入北京" />
+          <attvalue for="3" value="flow" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="天津" target="河北" weight="8892">
+        <attvalues>
+          <attvalue for="2" value="从天津流入河北" />
+          <attvalue for="3" value="flow" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="河北" target="北京" weight="1529807">
+        <attvalues>
+          <attvalue for="2" value="从河北流入北京" />
+          <attvalue for="3" value="flow" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="河北" target="天津" weight="397769">
+        <attvalues>
+          <attvalue for="2" value="从河北流入天津" />
+          <attvalue for="3" value="flow" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="北京_务工/工作" target="北京" weight="13106.125">
+        <attvalues>
+          <attvalue for="2" value="北京_务工/工作" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="北京_家属随迁" target="北京" weight="4915.364">
+        <attvalues>
+          <attvalue for="2" value="北京_家属随迁" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="北京_出生" target="北京" weight="2592.931">
+        <attvalues>
+          <attvalue for="2" value="北京_出生" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="北京_经商" target="北京" weight="2309.482">
+        <attvalues>
+          <attvalue for="2" value="北京_经商" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="北京_婚姻嫁娶" target="北京" weight="380.241">
+        <attvalues>
+          <attvalue for="2" value="北京_婚姻嫁娶" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="天津_务工/工作" target="天津" weight="2383.181">
+        <attvalues>
+          <attvalue for="2" value="天津_务工/工作" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="天津_家属随迁" target="天津" weight="1398.059">
+        <attvalues>
+          <attvalue for="2" value="天津_家属随迁" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="天津_经商" target="天津" weight="768.378">
+        <attvalues>
+          <attvalue for="2" value="天津_经商" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="天津_出生" target="天津" weight="552.958">
+        <attvalues>
+          <attvalue for="2" value="天津_出生" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="天津_婚姻嫁娶" target="天津" weight="83.543">
+        <attvalues>
+          <attvalue for="2" value="天津_婚姻嫁娶" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="河北_务工/工作" target="河北" weight="1346.276">
+        <attvalues>
+          <attvalue for="2" value="河北_务工/工作" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="河北_家属随迁" target="河北" weight="870.3166">
+        <attvalues>
+          <attvalue for="2" value="河北_家属随迁" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="河北_经商" target="河北" weight="592.819">
+        <attvalues>
+          <attvalue for="2" value="河北_经商" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="河北_出生" target="河北" weight="168.986">
+        <attvalues>
+          <attvalue for="2" value="河北_出生" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="河北_婚姻嫁娶" target="河北" weight="44.286">
+        <attvalues>
+          <attvalue for="2" value="河北_婚姻嫁娶" />
+          <attvalue for="3" value="reason" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
