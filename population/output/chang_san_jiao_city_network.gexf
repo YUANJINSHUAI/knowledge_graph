@@ -3,7 +3,6 @@
   <graph defaultedgetype="directed" mode="static" name="">
     <attributes class="edge" mode="static">
       <attribute id="2" title="label" type="string" />
-      <attribute id="3" title="type_" type="string" />
     </attributes>
     <attributes class="node" mode="static">
       <attribute id="0" title="ws" type="float" />
@@ -11,7 +10,7 @@
     </attributes>
     <meta>
       <creator>NetworkX 2.3</creator>
-      <lastmodified>07/08/2019</lastmodified>
+      <lastmodified>09/08/2019</lastmodified>
     </meta>
     <nodes>
       <node id="江苏" label="江苏">
@@ -124,132 +123,51 @@
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="江苏" target="上海" weight="1560619">
+      <edge id="0" source="江苏" target="上海" type="flow" weight="15606">
         <attvalues>
-          <attvalue for="2" value="从江苏流入上海" />
-          <attvalue for="3" value="flow" />
+          <attvalue for="2" value="从江苏流入上海1560619人" />
         </attvalues>
       </edge>
-      <edge id="1" source="江苏" target="浙江" weight="657094">
+      <edge id="1" source="江苏" target="浙江" type="flow" weight="6570">
         <attvalues>
-          <attvalue for="2" value="从江苏流入浙江" />
-          <attvalue for="3" value="flow" />
+          <attvalue for="2" value="从江苏流入浙江657094人" />
         </attvalues>
       </edge>
-      <edge id="2" source="上海" target="江苏" weight="50906">
+      <edge id="2" source="上海" target="江苏" type="flow" weight="509">
         <attvalues>
-          <attvalue for="2" value="从上海流入江苏" />
-          <attvalue for="3" value="flow" />
+          <attvalue for="2" value="从上海流入江苏50906人" />
         </attvalues>
       </edge>
-      <edge id="3" source="上海" target="浙江" weight="48071">
+      <edge id="3" source="上海" target="浙江" type="flow" weight="480">
         <attvalues>
-          <attvalue for="2" value="从上海流入浙江" />
-          <attvalue for="3" value="flow" />
+          <attvalue for="2" value="从上海流入浙江48071人" />
         </attvalues>
       </edge>
-      <edge id="4" source="浙江" target="江苏" weight="228503">
+      <edge id="4" source="浙江" target="江苏" type="flow" weight="2285">
         <attvalues>
-          <attvalue for="2" value="从浙江流入江苏" />
-          <attvalue for="3" value="flow" />
+          <attvalue for="2" value="从浙江流入江苏228503人" />
         </attvalues>
       </edge>
-      <edge id="5" source="浙江" target="上海" weight="465889">
+      <edge id="5" source="浙江" target="上海" type="flow" weight="4658">
         <attvalues>
-          <attvalue for="2" value="从浙江流入上海" />
-          <attvalue for="3" value="flow" />
+          <attvalue for="2" value="从浙江流入上海465889人" />
         </attvalues>
       </edge>
-      <edge id="6" source="江苏_务工/工作" target="江苏" weight="21406.989">
-        <attvalues>
-          <attvalue for="2" value="江苏_务工/工作" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="7" source="江苏_家属随迁" target="江苏" weight="8532.885">
-        <attvalues>
-          <attvalue for="2" value="江苏_家属随迁" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="8" source="江苏_经商" target="江苏" weight="4262.051">
-        <attvalues>
-          <attvalue for="2" value="江苏_经商" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="9" source="江苏_出生" target="江苏" weight="2860.405">
-        <attvalues>
-          <attvalue for="2" value="江苏_出生" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="10" source="江苏_学习培训" target="江苏" weight="224.362">
-        <attvalues>
-          <attvalue for="2" value="江苏_学习培训" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="11" source="上海_务工/工作" target="上海" weight="17644.838">
-        <attvalues>
-          <attvalue for="2" value="上海_务工/工作" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="12" source="上海_家属随迁" target="上海" weight="6512.026">
-        <attvalues>
-          <attvalue for="2" value="上海_家属随迁" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="13" source="上海_出生" target="上海" weight="3068.879">
-        <attvalues>
-          <attvalue for="2" value="上海_出生" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="14" source="上海_经商" target="上海" weight="2263.746">
-        <attvalues>
-          <attvalue for="2" value="上海_经商" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="15" source="上海_婚姻嫁娶" target="上海" weight="362.276">
-        <attvalues>
-          <attvalue for="2" value="上海_婚姻嫁娶" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="16" source="浙江_务工/工作" target="浙江" weight="44783.421">
-        <attvalues>
-          <attvalue for="2" value="浙江_务工/工作" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="17" source="浙江_家属随迁" target="浙江" weight="13973.7">
-        <attvalues>
-          <attvalue for="2" value="浙江_家属随迁" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="18" source="浙江_经商" target="浙江" weight="10460.786">
-        <attvalues>
-          <attvalue for="2" value="浙江_经商" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="19" source="浙江_出生" target="浙江" weight="4624.188">
-        <attvalues>
-          <attvalue for="2" value="浙江_出生" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
-      <edge id="20" source="浙江_学习培训" target="浙江" weight="360.056">
-        <attvalues>
-          <attvalue for="2" value="浙江_学习培训" />
-          <attvalue for="3" value="reason" />
-        </attvalues>
-      </edge>
+      <edge id="6" source="江苏_务工/工作" target="江苏" type="reason" weight="1000" />
+      <edge id="7" source="江苏_家属随迁" target="江苏" type="reason" weight="1000" />
+      <edge id="8" source="江苏_经商" target="江苏" type="reason" weight="1000" />
+      <edge id="9" source="江苏_出生" target="江苏" type="reason" weight="1000" />
+      <edge id="10" source="江苏_学习培训" target="江苏" type="reason" weight="1000" />
+      <edge id="11" source="上海_务工/工作" target="上海" type="reason" weight="1000" />
+      <edge id="12" source="上海_家属随迁" target="上海" type="reason" weight="1000" />
+      <edge id="13" source="上海_出生" target="上海" type="reason" weight="1000" />
+      <edge id="14" source="上海_经商" target="上海" type="reason" weight="1000" />
+      <edge id="15" source="上海_婚姻嫁娶" target="上海" type="reason" weight="1000" />
+      <edge id="16" source="浙江_务工/工作" target="浙江" type="reason" weight="1000" />
+      <edge id="17" source="浙江_家属随迁" target="浙江" type="reason" weight="1000" />
+      <edge id="18" source="浙江_经商" target="浙江" type="reason" weight="1000" />
+      <edge id="19" source="浙江_出生" target="浙江" type="reason" weight="1000" />
+      <edge id="20" source="浙江_学习培训" target="浙江" type="reason" weight="1000" />
     </edges>
   </graph>
 </gexf>
