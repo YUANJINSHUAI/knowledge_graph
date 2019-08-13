@@ -2,11 +2,12 @@
 <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
   <graph defaultedgetype="directed" mode="static" name="">
     <attributes class="edge" mode="static">
-      <attribute id="2" title="label" type="string" />
+      <attribute id="3" title="label" type="string" />
     </attributes>
     <attributes class="node" mode="static">
-      <attribute id="0" title="ws" type="float" />
+      <attribute id="0" title="size" type="float" />
       <attribute id="1" title="ntype" type="string" />
+      <attribute id="2" title="ws" type="float" />
     </attributes>
     <meta>
       <creator>NetworkX 2.3</creator>
@@ -33,91 +34,91 @@
       </node>
       <node id="江苏_务工/工作" label="务工/工作">
         <attvalues>
-          <attvalue for="0" value="21406.989" />
+          <attvalue for="2" value="21406.989" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="江苏_家属随迁" label="家属随迁">
         <attvalues>
-          <attvalue for="0" value="8532.885" />
+          <attvalue for="2" value="8532.885" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="江苏_经商" label="经商">
         <attvalues>
-          <attvalue for="0" value="4262.051" />
+          <attvalue for="2" value="4262.051" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="江苏_出生" label="出生">
         <attvalues>
-          <attvalue for="0" value="2860.405" />
+          <attvalue for="2" value="2860.405" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="江苏_学习培训" label="学习培训">
         <attvalues>
-          <attvalue for="0" value="224.362" />
+          <attvalue for="2" value="224.362" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="上海_务工/工作" label="务工/工作">
         <attvalues>
-          <attvalue for="0" value="17644.838" />
+          <attvalue for="2" value="17644.838" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="上海_家属随迁" label="家属随迁">
         <attvalues>
-          <attvalue for="0" value="6512.026" />
+          <attvalue for="2" value="6512.026" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="上海_出生" label="出生">
         <attvalues>
-          <attvalue for="0" value="3068.879" />
+          <attvalue for="2" value="3068.879" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="上海_经商" label="经商">
         <attvalues>
-          <attvalue for="0" value="2263.746" />
+          <attvalue for="2" value="2263.746" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="上海_婚姻嫁娶" label="婚姻嫁娶">
         <attvalues>
-          <attvalue for="0" value="362.276" />
+          <attvalue for="2" value="362.276" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="浙江_务工/工作" label="务工/工作">
         <attvalues>
-          <attvalue for="0" value="44783.421" />
+          <attvalue for="2" value="44783.421" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="浙江_家属随迁" label="家属随迁">
         <attvalues>
-          <attvalue for="0" value="13973.7" />
+          <attvalue for="2" value="13973.7" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="浙江_经商" label="经商">
         <attvalues>
-          <attvalue for="0" value="10460.786" />
+          <attvalue for="2" value="10460.786" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="浙江_出生" label="出生">
         <attvalues>
-          <attvalue for="0" value="4624.188" />
+          <attvalue for="2" value="4624.188" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
       <node id="浙江_学习培训" label="学习培训">
         <attvalues>
-          <attvalue for="0" value="360.056" />
+          <attvalue for="2" value="360.056" />
           <attvalue for="1" value="sub" />
         </attvalues>
       </node>
@@ -125,32 +126,32 @@
     <edges>
       <edge id="0" source="江苏" target="上海" type="flow" weight="15606">
         <attvalues>
-          <attvalue for="2" value="从江苏流入上海1560619人" />
+          <attvalue for="3" value="从江苏流入上海1560619人" />
         </attvalues>
       </edge>
       <edge id="1" source="江苏" target="浙江" type="flow" weight="6570">
         <attvalues>
-          <attvalue for="2" value="从江苏流入浙江657094人" />
+          <attvalue for="3" value="从江苏流入浙江657094人" />
         </attvalues>
       </edge>
       <edge id="2" source="上海" target="江苏" type="flow" weight="509">
         <attvalues>
-          <attvalue for="2" value="从上海流入江苏50906人" />
+          <attvalue for="3" value="从上海流入江苏50906人" />
         </attvalues>
       </edge>
       <edge id="3" source="上海" target="浙江" type="flow" weight="480">
         <attvalues>
-          <attvalue for="2" value="从上海流入浙江48071人" />
+          <attvalue for="3" value="从上海流入浙江48071人" />
         </attvalues>
       </edge>
       <edge id="4" source="浙江" target="江苏" type="flow" weight="2285">
         <attvalues>
-          <attvalue for="2" value="从浙江流入江苏228503人" />
+          <attvalue for="3" value="从浙江流入江苏228503人" />
         </attvalues>
       </edge>
       <edge id="5" source="浙江" target="上海" type="flow" weight="4658">
         <attvalues>
-          <attvalue for="2" value="从浙江流入上海465889人" />
+          <attvalue for="3" value="从浙江流入上海465889人" />
         </attvalues>
       </edge>
       <edge id="6" source="江苏_务工/工作" target="江苏" type="reason" weight="1000" />

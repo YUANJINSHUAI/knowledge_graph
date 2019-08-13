@@ -6,6 +6,7 @@ import datetime
 import networkx as nx
 import json
 from networkx.readwrite import json_graph
+import matplotlib.pyplot as plt
 
 
 
@@ -21,7 +22,7 @@ city_list = ['江苏', '上海', '浙江']
 G1 = nx.DiGraph()
 # add node
 for p in city_list:
-    G1.add_node(p, label=p, ws=gdp_data[gdp_data.年 == datetime.datetime(2017, 12, 31, 0, 0)][p+':GDP'].values[0],
+    G1.add_node(p, label=p, size=gdp_data[gdp_data.年 == datetime.datetime(2017, 12, 31, 0, 0)][p+':GDP'].values[0],
                 ntype='main')  # row:68 means2018
     print('流动当年%s的GDP:%s' % (p, gdp_data[gdp_data.年 == datetime.datetime(2017, 12, 31, 0, 0)][p+':GDP'].values[0]))
 
@@ -46,7 +47,6 @@ for city in city_list:
                     weight=1000, type='reason')  # i：流出省份，j：流入省份
         print('流入%s的人中有%s人%s' % (city, city_reason_data[i], city_reason_data.index[i]))
 
-labels = nx.draw_networkx_labels(G1, pos=nx.spring_layout(G1))
 """ Write to GEXF """
 # Use 1.2draft so you do not get a deprecated warning in Gelphi
 nx.write_gexf(G1, "./output/chang_san_jiao_city_network.gexf", version="1.2draft")
@@ -57,3 +57,8 @@ with open('networkdata1.json', 'w') as outfile1:
 
 data = json_graph.node_link_data(G1)
 
+font: {
+        size: 100,
+        strokeColor: '#fff',
+        strokeWidth: 5
+      }
